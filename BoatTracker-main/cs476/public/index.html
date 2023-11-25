@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/46e6ae657e.js" crossorigin="anonymous"></script>
+    <!-- custom styles -->
+    <link rel="stylesheet" href="styles/filtering.css" type="text/css">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <link rel="stylesheet" href="styles/home.css" type="text/css">
+    <title>BoatTracker</title>
+</head>
+
+<body>
+    <div id="container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+              <img src="img/Untitled design (5).png" alt="Sailing Data Tracker logo">
+              Sailing Data Tracker
+            </a>
+            <ul class="nav-links">
+              <li class="navElement navActive"><a href="index.html" data-page="filter">Home</a></li>
+              <li class="navElement"><a href="maps.html" data-page="filter">Maps</a></li>
+              <li class="navElement"><a href="boats.html" data-page="filter">Boats</a></li>
+            </ul>
+        </nav>
+        <!-- End of Navigation -->
+        <main>
+            <!-- Carousel -->
+            <section class=""> 
+                <div class="homepage">
+                    <div class="headings">
+                        <h1 class="headings-title">Welcome to the Boat Tracking Site</h1>
+                        <h3 class="headings-subtitle">Where we track sailing boats</h3>
+                    </div> 
+                </div>
+            </section>
+            <!-- End of Carousel -->
+            
+            <!-- Question section -->
+            <section class="question">
+                <div class="question-items">
+                    <!-- single question first -->
+                    <div class="question-grey">
+                        <a href="maps.html" class="question-icon">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </a>
+                        <div class="question-text">
+                            <h4 class="question-title">
+                                looking to track your boat?
+                            </h4>
+                            <p class="question-info">Visit our maps page by clicking the map icon to the side to track your boat</p>
+                        </div>
+                    </div>
+                    <!-- single question second -->
+                    <div class="question-yellow">
+                        <a href="boats.html" class="question-icon">
+                            <i class="fa-solid fa-sailboat"></i>
+                        </a>
+                        <div class="question-text">
+                            <h4 class="question-title">
+                                Not sure what type of boat?
+                            </h4>
+                            <p class="question-info">Visit our boat page by clicking the boat icon to the side to learn more</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end of question section -->
+        </main>
+    </div>
+    <!-- custom JS -->
+    <script > 
+        function loadMap(){
+            const map = document.getElementById("mapArea");
+            const boatType = document.getElementById("typeInput").value;
+            const date = document.getElementById("dateSelect").value;
+            const filePath = "Maps/"+boatType+"/"+date+".html";
+            console.log(filePath);
+            map.setAttribute("src", filePath);
+        }
+    </script>
+</body>
+
+</html>
