@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jcy_y\\Desktop\\Tech\\VS_Code\\cs433-theory-of-algo-a04\\cs433-theory-of-algo-a04.csproj",
+      "projectUniqueName": "C:\\Users\\jcy_y\\Desktop\\Tech\\School\\college-archives\\433-theory-of-algo\\assignment04\\cs433-theory-of-algo-a04.csproj",
       "projectName": "cs433-theory-of-algo-a04",
-      "projectPath": "C:\\Users\\jcy_y\\Desktop\\Tech\\VS_Code\\cs433-theory-of-algo-a04\\cs433-theory-of-algo-a04.csproj",
+      "projectPath": "C:\\Users\\jcy_y\\Desktop\\Tech\\School\\college-archives\\433-theory-of-algo\\assignment04\\cs433-theory-of-algo-a04.csproj",
       "packagesPath": "C:\\Users\\jcy_y\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jcy_y\\Desktop\\Tech\\VS_Code\\cs433-theory-of-algo-a04\\obj\\",
+      "outputPath": "C:\\Users\\jcy_y\\Desktop\\Tech\\School\\college-archives\\433-theory-of-algo\\assignment04\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jcy_y\\AppData\\Roaming\\NuGet\\NuGet.Config"

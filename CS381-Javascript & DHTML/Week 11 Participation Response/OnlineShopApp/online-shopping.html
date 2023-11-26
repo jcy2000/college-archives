@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>My Store</title>
+ <meta charset="utf-8">
+  <!-- Include bootstrap CSS -->
+ <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<style>
+ #labels, #cart-labels { font: 18px bold;  background-color: #696969; color: #fff; }
+ #cart { width: 40%;}
+</style>
+
+</head>
+<body>
+<div class='container'>
+<h2>Sam's Store</h2>
+<table class="table">
+<thead>
+  <tr id='labels'>
+	<td class='col-xs-2' >Stock ID</td>
+    <td class='col-xs-5' >Product</td>
+    <td class='col-xs-2' >Regular Price</td>
+    <td class='col-xs-2' colspan='2'>Sale Price</td>
+  </tr>
+</thead>
+<tbody>
+  <tr class='list' id='c1'>
+    <td class='col-xs-2' id='sid-0'>SH32AQ60</td>
+    <td class='col-xs-5' id='pid-0'>Sharp AQUAS-60in  HDTV</td>
+    <td class='col-xs-2' id='rp-0'>799.99</td>
+    <td class='col-xs-2' id='sp-0'>759.99</td>
+	<td class='col-xs-1'>
+		<button type='button' value='0' id='cb-0' class='btn btn-primary add-item'>Add</button>
+	</td>
+  </tr>
+  <tr class='list' id='c2'>  
+	<td class='col-xs-2' id='sid-1'>PN455</td>
+    <td class='col-xs-5' id='pid-1'>Panasonic 55in LED HDTV</td>
+    <td class='col-xs-2' id='rp-1'>999.99</td>
+    <td class='col-xs-2' id='sp-1'>679.99</td>
+	<td class='col-xs-1'>
+		<button type='button' value='1' id='cb-1' class='btn btn-primary add-item'>Add</button>
+	</td>
+  </tr>
+  <tr class='list' id='c3'>
+    <td class='col-xs-2' id='sid-2'>VZ49M</td>
+    <td class='col-xs-5' id='pid-2'>VIZIO M series 49in LED HDTV</td>
+    <td class='col-xs-2' id='rp-2'>719.99</td>
+    <td class='col-xs-2' id='sp-2'>579.99</td>
+	<td class='col-xs-1'>
+		<button type='button' value='2' id='cb-2' class='btn btn-primary add-item'>Add</button>
+	</td>
+  </tr>
+  <tr class='list' id='c4'>
+    <td class='col-xs-2' id='sid-3'>IN200SR</td>
+    <td class='col-xs-5' id='pid-3'>Insignia 200W Stereo Receiver</td>
+    <td class='col-xs-2' id='rp-3'>24.99</td>
+    <td class='col-xs-2' id='sp-3'>19.99</td>
+	<td class='col-xs-1'>
+		<button type='button' value='3' id='cb-3' class='btn btn-primary add-item'>Add</button>
+	</td>
+  </tr>
+
+  <tr class='list' id='c5'>
+    <td class='col-xs-2' id='sid-4'>PN1000HTS</td>
+    <td class='col-xs-5' id='pid-4'>Panasonic 1000W Smart Blu-ray Home Theater System</td>
+    <td class='col-xs-2' id='rp-4'>349.99</td>
+    <td class='col-xs-2' id='sp-4'>299.99</td>
+    <td class='col-xs-1'>
+		<button type='button' value='4' id='cb-4' class='btn btn-primary add-item'>Add</button>
+	</td>	
+  </tr>
+  <tr class='list' id='c6'>
+    <td class='col-xs-2' id='sid-5'>HP305DJ</td>
+    <td class='col-xs-5' id='pid-5'>HP Deskjet 3056A</td>
+    <td class='col-xs-2' id='rp-5'>49.90</td>
+    <td class='col-xs-2' id='sp-5'>34.90</td>
+	<td class='col-xs-1'>
+		<button type='button' value='5' id='cb-5' class='btn btn-primary add-item'>Add</button>
+	</td>
+  </tr>
+  <tr class='list' id='c7'>   
+      <td class='col-xs-2' id='sid-6'>RF386BMR</td>
+      <td class='col-xs-5' id='pid-6'>Rocketfish Bluetooth Music Receiver</td>
+      <td class='col-xs-2' id='rp-6'>49.90</td>
+      <td class='col-xs-2' id='sp-6'>34.90</td>
+	  <td class='col-xs-1'>
+		<button type='button' value='6' id='cb-6' class='btn btn-primary add-item' />Add</button>
+	  </td>
+  </tr>
+  <tr class='list' id='c8'>
+        <td class='col-xs-2' id='sid-7'>SM350SB</td>
+        <td class='col-xs-5' id='pid-7'>Sling Media Slingbox 350</td>
+        <td class='col-xs-2' id='rp-7'>179.90</td>
+        <td class='col-xs-2' id='sp-7'>115.90</td>
+		<td class='col-xs-1'><button type='button' value='7' id='cb-7' class='btn btn-primary add-item' />Add</button></td>
+  </tr>
+</tbody>
+</table>
+
+<div id="cart">
+  <div class='list-title'>You have <span id="items">0</span>  items in your Shopping Cart</div>
+  <table class='table'>
+	<thead id='cart-labels'>
+      <td class='col-xs-9'>Product</td>
+      <td class='col-xs-3'>Sale Price</td>
+	</thead>
+	<tbody id='item-list'>
+	</tbody>
+  </table>
+</div>
+<div class="total">Total Amount: $<span id="total">0.00</span></div>
+<div id='d1'></div>
+</div>
+<script src="online-shopping.js"></script>
+</body>
+</html>

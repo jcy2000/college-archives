@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "433-theory-of-algo", "433-theory-of-algo", "{942FDDDE-455E-4A41-9049-119F59C18950}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS433TheoryOfAlgo", "433-theory-of-algo\assignment01\CS433TheoryOfAlgo.csproj", "{120700D1-5522-4ACC-A6E6-01923770C6DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cs433-theory-of-algo-a02", "433-theory-of-algo\assignment02\cs433-theory-of-algo-a02.csproj", "{8A66C614-6195-4526-AB7D-2BB49A7503DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cs433-theory-of-algo-a03", "433-theory-of-algo\assignment03\cs433-theory-of-algo-a03.csproj", "{65848EA0-2DE5-43A3-A537-EC1FC8D88971}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cs433-theory-of-algo-a04", "433-theory-of-algo\assignment04\cs433-theory-of-algo-a04.csproj", "{FFC7A3C3-8909-471C-8C40-0AE6532398AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{120700D1-5522-4ACC-A6E6-01923770C6DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120700D1-5522-4ACC-A6E6-01923770C6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120700D1-5522-4ACC-A6E6-01923770C6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120700D1-5522-4ACC-A6E6-01923770C6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A66C614-6195-4526-AB7D-2BB49A7503DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A66C614-6195-4526-AB7D-2BB49A7503DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A66C614-6195-4526-AB7D-2BB49A7503DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A66C614-6195-4526-AB7D-2BB49A7503DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65848EA0-2DE5-43A3-A537-EC1FC8D88971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65848EA0-2DE5-43A3-A537-EC1FC8D88971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65848EA0-2DE5-43A3-A537-EC1FC8D88971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65848EA0-2DE5-43A3-A537-EC1FC8D88971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC7A3C3-8909-471C-8C40-0AE6532398AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC7A3C3-8909-471C-8C40-0AE6532398AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC7A3C3-8909-471C-8C40-0AE6532398AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC7A3C3-8909-471C-8C40-0AE6532398AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{120700D1-5522-4ACC-A6E6-01923770C6DD} = {942FDDDE-455E-4A41-9049-119F59C18950}
+		{8A66C614-6195-4526-AB7D-2BB49A7503DB} = {942FDDDE-455E-4A41-9049-119F59C18950}
+		{65848EA0-2DE5-43A3-A537-EC1FC8D88971} = {942FDDDE-455E-4A41-9049-119F59C18950}
+		{FFC7A3C3-8909-471C-8C40-0AE6532398AD} = {942FDDDE-455E-4A41-9049-119F59C18950}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42B66FDF-EE32-4ABE-8EBF-26F32414E1D5}
+	EndGlobalSection
+EndGlobal

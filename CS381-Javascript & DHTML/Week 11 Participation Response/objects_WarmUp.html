@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>User-defined Objects Warm Up</title>
+
+</head>
+
+<body>
+
+    <h1>Object Warm Up Practice</h1>
+	<script>
+	function Hotel(name, Rrooms, Vrooms, Rbooked, Vbooked) {  	
+		this.name = name;  
+		this.rooms_regular = Rrooms; 
+		this.rooms_vip = Vrooms; 
+		this.booked_regular = Rbooked;  
+		this.booked_vip = Vbooked;   
+		
+	//part-1: complete checkAvailability method so that it can return number of available rooms for each type of rooms (i.e., regular, vip)	
+		
+	}
+	
+	//part-2: create an Hotel object by calling Hotel constructor function, 
+	//and call checkAvailability method to display room availability in console
+	
+	
+	var instructor = {
+       employeeId: '1252', 
+       rank: 'professor',
+       firstName: 'Scott',
+       lastName: 'Carson',
+	   department: 'Computer Science',  
+       officephone: '(512)555-5123',    	
+	};
+        
+	
+	//part-3(1): Access and update instructor object. Use either dot notation or square notation. 
+	//get id and rank from instructor object
+	var id;  //use dot notation to get 
+	var rank;  //use square branket notation
+    console.log("id: ", id);
+	console.log("rank: ", rank);
+	
+	//Part-3(2)add a property named 'collegeEmail' and its value “scarson@tloc.edu”
+	
+	//Part-3(3)replace '512' with '608' in officephone in instructor object so that the phone number is: (608)555-5123;
+	
+	//Part-3(4)Add a property named “instructorId” which has the same value as the “employeeId”, and then remove the property named “employeeId”.
+
+	console.log("part-3: instructor object", instructor);
+	
+
+
+	</script>
+	
+</body>
+		

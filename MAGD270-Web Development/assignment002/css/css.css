@@ -1,0 +1,49 @@
+.img {
+    height: 200px;
+    width: (height*2)px;
+    position: relative;
+}
+
+#img1 {float: left;}
+#img2 {float: right;}
+
+body {
+    background: url("../images/galaxy.png");
+    background-size: cover;
+    color: white;
+}
+
+header {
+    text-align: center;
+    float: none;
+    font-size: 3em;
+    clear: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    clear: right;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.75em;
+}
+#hardToRead {
+    text-align: center;
+    padding: 100px;
+    color: green;
+}
+
+#missleMonologue {
+    text-align: left;
+    margin-top: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}

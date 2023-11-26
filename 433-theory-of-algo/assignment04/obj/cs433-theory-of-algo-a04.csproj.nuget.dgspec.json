@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\jcy_y\\Desktop\\Tech\\VS_Code\\cs433-theory-of-algo-a04\\cs433-theory-of-algo-a04.csproj": {}
+    "C:\\Users\\jcy_y\\Desktop\\Tech\\School\\college-archives\\433-theory-of-algo\\assignment04\\cs433-theory-of-algo-a04.csproj": {}
   },
   "projects": {
-    "c:\\Users\\jcy_y\\Desktop\\Tech\\VS_Code\\cs433-theory-of-algo-a04\\cs433-theory-of-algo-a04.csproj": {
+    "C:\\Users\\jcy_y\\Desktop\\Tech\\School\\college-archives\\433-theory-of-algo\\assignment04\\cs433-theory-of-algo-a04.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\jcy_y\\Desktop\\Tech\\VS_Code\\cs433-theory-of-algo-a04\\cs433-theory-of-algo-a04.csproj",
+        "projectUniqueName": "C:\\Users\\jcy_y\\Desktop\\Tech\\School\\college-archives\\433-theory-of-algo\\assignment04\\cs433-theory-of-algo-a04.csproj",
         "projectName": "cs433-theory-of-algo-a04",
-        "projectPath": "c:\\Users\\jcy_y\\Desktop\\Tech\\VS_Code\\cs433-theory-of-algo-a04\\cs433-theory-of-algo-a04.csproj",
+        "projectPath": "C:\\Users\\jcy_y\\Desktop\\Tech\\School\\college-archives\\433-theory-of-algo\\assignment04\\cs433-theory-of-algo-a04.csproj",
         "packagesPath": "C:\\Users\\jcy_y\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\jcy_y\\Desktop\\Tech\\VS_Code\\cs433-theory-of-algo-a04\\obj\\",
+        "outputPath": "C:\\Users\\jcy_y\\Desktop\\Tech\\School\\college-archives\\433-theory-of-algo\\assignment04\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jcy_y\\AppData\\Roaming\\NuGet\\NuGet.Config"
