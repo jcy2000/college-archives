@@ -1,0 +1,16 @@
+.container-fluid {
+    background-color: purple;
+}
+.navbar-brand {
+    color:white;
+}
+.nav-link {
+    color: white;
+}
+p {
+    background-color: black;
+    color:white;
+}
+img {
+    width: 100%;
+}
